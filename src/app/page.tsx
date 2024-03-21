@@ -164,6 +164,7 @@ const Page =()=>{
           whileHover={{ scale: 1.1 }}
         />
       </motion.div>
+      {/* Skill Chaat is a website that Offer various courses including web development Course. */}
 
       <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.2 }}>
         <h1 id='hi'>
@@ -206,7 +207,7 @@ const Page =()=>{
       >
         <div className="row2">
           <div className="top">
-            <h1 id="hh2">&nbsp;&nbsp; 20+ <br /> Projects</h1>
+            <h1 id="hh2">&nbsp;&nbsp; 25+ <br /> Projects</h1>
             <h1 id="hh1">&nbsp;&nbsp;&nbsp;&nbsp; 8 <br /> Months</h1>
             <h1 id="hhh1">&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;6 <br /> Certificate</h1>
           </div>
@@ -275,16 +276,17 @@ const Page =()=>{
               className="card"
               style={{ marginTop: '30px' }}
             >
-              <img src="./1.png" className="card-img-top" style={{ marginBottom: "0px" }} alt="..." />
+              {/* Skill Chaat is a website that Offer various courses including web development Course. */}
+              <img src="./17.png" className="card-img-top" style={{ marginBottom: "0px" }} alt="..." />
               <div className="card-body" style={{ marginBottom: "0px", marginTop: "0px" }}>
-                <h5 className="card-title" style={{ marginBottom: "1px", marginTop: "0px" }}>University Management System</h5>
-                <p className="card-text" style={{ marginBottom: '0px', marginTop: "0px" }}>A user-friendly system for Universities managing student data, courses, and records.</p>
+                <h5 className="card-title" style={{ marginBottom: "1px", marginTop: "0px" }}>Skill Chaat</h5>
+                <p className="card-text" style={{ marginBottom: '0px', marginTop: "0px" }}> Skill Chaat is a website that Offer various courses including web development Course.</p>
                 <motion.div
                   initial={{ opacity: 0, x: 20 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.5, delay: 0.2 }}
                 >
-                  <Link href="https://github.com/syedahafsa12/typescript/tree/main/uni_management_sys" legacyBehavior>
+                  <Link href="https://github.com/syedahafsa12/skillchaat" legacyBehavior>
                     <a target='_blank'>
                       <motion.button
                         id='but4'
@@ -363,17 +365,19 @@ const Page =()=>{
               className="card"
               style={{ marginTop: '30px' }}
             >
+              {/* <h5 className="card-title" style={{ marginBottom: "1px", marginTop: "0px" }}>University Management System</h5>
+                <p className="card-text" style={{ marginBottom: '0px', marginTop: "0px" }}>A user-friendly system for Universities managing student data, courses, and records.</p> */}
               <img src="./4.png" className="card-img-top" alt="..." />
               <div className="card-body" style={{ marginBottom: "0px", marginTop: "0px" }}>
-                <h5 className="card-title" style={{ marginBottom: "1px", marginTop: "0px" }}>Word Counter</h5>
-                <p className="card-text" style={{ marginBottom: '0px', marginTop: "10px" }}>Handy tool for analyzing text documents, providing accurate word counts.</p>
+              <h5 className="card-title" style={{ marginBottom: "1px", marginTop: "0px" }}>University Management System</h5>
+                <p className="card-text" style={{ marginBottom: '0px', marginTop: "0px" }}>A user-friendly system for Universities managing student data, courses, and records.</p>
               </div>
               <motion.div
                 initial={{ opacity: 0, x: 20 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.5, delay: 0.2 }}
               >
-                <Link href="https://github.com/syedahafsa12/typescript/tree/main/word-counter" legacyBehavior>
+                <Link href="https://github.com/syedahafsa12/typescript/tree/main/uni_management_sys" legacyBehavior>
                   <a target='_blank'>
                     <motion.button
                       id='but4' style={{ marginLeft: '65px' }}
@@ -552,15 +556,15 @@ const Page =()=>{
             >
               <img src="./10.png" className="card-img-top" style={{ marginBottom: "0px" }} alt="..." />
               <div className="card-body" style={{ marginBottom: "0px", marginTop: "0px" }}>
-                <h5 className="card-title" style={{ marginBottom: "1px", marginTop: "0px" }}>Landing Page</h5>
-                <p className="card-text" style={{ marginBottom: '10px', marginTop: "10px" }}> Introduce your website. Attractive, inviting layout with HTML and CSS.
-                </p>
+              <h5 className="card-title" style={{ marginBottom: "1px", marginTop: "0px" }}>Word Counter</h5>
+                <p className="card-text" style={{ marginBottom: '0px', marginTop: "10px" }}>Handy tool for analyzing text documents, providing accurate word counts.</p>
+                
                 <motion.div
                   initial={{ opacity: 0, x: 20 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.5, delay: 0.2 }}
                 >
-                  <Link href="https://github.com/syedahafsa12/html-Css/tree/main/landing%20pg" legacyBehavior>
+                  <Link href="https://github.com/syedahafsa12/typescript/tree/main/word-counter" legacyBehavior>
                     <a target='_blank'>
                       <motion.button
                         id='but4'
