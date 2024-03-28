@@ -277,16 +277,17 @@ const Page =()=>{
               style={{ marginTop: '30px' }}
             >
               {/* Skill Chaat is a website that Offer various courses including web development Course. */}
-              <img src="./17.png" className="card-img-top" style={{ marginBottom: "0px" }} alt="..." />
+              <img src="./15.png" className="card-img-top" style={{ marginBottom: "0px" }} alt="..." />
               <div className="card-body" style={{ marginBottom: "0px", marginTop: "0px" }}>
-                <h5 className="card-title" style={{ marginBottom: "1px", marginTop: "0px" }}>Skill Chaat</h5>
-                <p className="card-text" style={{ marginBottom: '0px', marginTop: "0px" }}> Skill Chaat is a website that Offer various courses including web development Course.</p>
+                <h5 className="card-title" style={{ marginBottom: "1px", marginTop: "0px" }}>Cat Photo App
+</h5>
+                <p className="card-text" style={{ marginBottom: '0px', marginTop: "0px" }}> A cute Website with HTML and CSS about Cats all Things About cat.</p>
                 <motion.div
                   initial={{ opacity: 0, x: 20 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.5, delay: 0.2 }}
                 >
-                  <Link href="https://github.com/syedahafsa12/skillchaat" legacyBehavior>
+                  <Link href="https://github.com/syedahafsa12/html-Css/tree/main/cat%20photo%20app" legacyBehavior>
                     <a target='_blank'>
                       <motion.button
                         id='but4'
@@ -554,7 +555,7 @@ const Page =()=>{
               className="card"
               style={{ marginTop: '30px' }}
             >
-              <img src="./10.png" className="card-img-top" style={{ marginBottom: "0px" }} alt="..." />
+              <img src="./4.png" className="card-img-top" style={{ marginBottom: "0px" }} alt="..." />
               <div className="card-body" style={{ marginBottom: "0px", marginTop: "0px" }}>
               <h5 className="card-title" style={{ marginBottom: "1px", marginTop: "0px" }}>Word Counter</h5>
                 <p className="card-text" style={{ marginBottom: '0px', marginTop: "10px" }}>Handy tool for analyzing text documents, providing accurate word counts.</p>
@@ -709,7 +710,7 @@ const Page =()=>{
 
 
 
-            <motion.div
+            {/* <motion.div
               whileHover={{ scale: 1.05, boxShadow: "0px 0px 8px rgba(0, 0, 0, 0.3)" }}
               className="card"
               style={{ marginTop: '30px' }}
@@ -736,7 +737,7 @@ const Page =()=>{
                   </Link>
                 </motion.div>
               </div>
-            </motion.div>
+            </motion.div> */}
 
 
 
